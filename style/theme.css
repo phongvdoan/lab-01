@@ -1,0 +1,74 @@
+* {
+  font-family: cursive;
+}
+
+.header {
+  background-color: peachpuff;
+}
+
+.main {
+  background-color: purple;
+}
+
+.sub1 {
+  background: red;
+}
+.sub2 {
+  background: pink;
+}
+.lower1 {
+  background-color: gray;
+}
+.lower2 {
+  background-color: darkblue;
+}
+.lower3 {
+  background-color: darkcyan;
+}
+.lower4 {
+  background-color: darkkhaki;
+}
+
+.footer {
+  background-color: salmon;
+}
+
+@media( min-width: 960px ) {
+
+.header {
+  background-color: gray;
+}
+
+.main {
+  background-color: yellowgreen;
+}
+
+.sub1 {
+  background-color: lightgreen;
+}
+
+.sub2 {
+  background-color: darkolivegreen;
+}
+
+
+.lower1 {
+  background-color: lightgoldenrodyellow;
+}
+
+.lower2 {
+  background-color: lightslategray
+}
+
+.lower3 {
+  background-color: limegreen;
+}
+
+.lower4 {
+  background-color: lightsteelblue;
+}
+
+.footer {
+  background-color: rgb(238, 248, 93);
+}
+}
