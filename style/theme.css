@@ -32,6 +32,44 @@
 .footer {
   background-color: salmon;
 }
+@media( min-width: 1025px ) {
+  .header {
+    background-color: darkgray;
+  }
+  
+  .main {
+    background-color: black;
+  }
+  
+  .sub1 {
+    background-color: lightgrey;
+  }
+  
+  .sub2 {
+    background-color: rgba(27, 25, 25, 0);
+  }
+  
+  
+  .lower1 {
+    background-color: grey;
+  }
+  
+  .lower2 {
+    background-color: white;
+  }
+  
+  .lower3 {
+    background-color: lightskyblue;
+  }
+  
+  .lower4 {
+    background-color: lightsteelblue;
+  }
+  
+  .footer {
+    background-color:blue;
+  }
+}
 
 @media( min-width: 960px ) {
 
