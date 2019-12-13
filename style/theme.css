@@ -2,73 +2,111 @@
   font-family: cursive;
 }
 
-.header {
+#header {
   background-color: peachpuff;
 }
 
-.main {
+#div1 {
   background-color: purple;
 }
 
-.sub1 {
+#div2 {
   background: red;
 }
-.sub2 {
+#div3 {
   background: pink;
 }
-.lower1 {
+#div4 {
   background-color: gray;
 }
-.lower2 {
+#div5 {
   background-color: darkblue;
 }
-.lower3 {
+#div6 {
   background-color: darkcyan;
 }
-.lower4 {
+#div7 {
   background-color: darkkhaki;
 }
 
-.footer {
+#footer {
   background-color: salmon;
+}
+@media( min-width: 1025px ) {
+  #header {
+    background-color: darkgray;
+  }
+  
+  #div1 {
+    background-color: black;
+  }
+  
+  #div2 {
+    background-color: lightgrey;
+  }
+  
+  #div3 {
+    background-color: rgba(27, 25, 25, 0);
+  }
+  
+  
+  #div4 {
+    background-color: grey;
+  }
+  
+  #div5 {
+    background-color: white;
+  }
+  
+  #div6 {
+    background-color: lightskyblue;
+  }
+  
+  #div7 {
+    background-color: lightsteelblue;
+  }
+  
+  #footer {
+    background-color:blue;
+  }
 }
 
 @media( min-width: 960px ) {
 
-.header {
+#header {
   background-color: gray;
 }
 
-.main {
+#div1 {
   background-color: yellowgreen;
 }
 
-.sub1 {
+#div2 {
   background-color: lightgreen;
 }
 
-.sub2 {
+#div3 {
   background-color: darkolivegreen;
 }
 
 
-.lower1 {
+#div4 {
   background-color: lightgoldenrodyellow;
 }
 
-.lower2 {
+#div5 {
   background-color: lightslategray
 }
 
-.lower3 {
+#div6 {
   background-color: limegreen;
 }
 
-.lower4 {
+#div7 {
   background-color: lightsteelblue;
 }
 
-.footer {
+#footer {
   background-color: rgb(238, 248, 93);
 }
 }

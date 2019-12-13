@@ -1,20 +1,12 @@
-* {
+*{
   box-sizing: border-box;
-  border: 1px solid yellow;
+  width:100%;
 }
 
-body, html {
-  height: 1055px;
-  margin:auto;
-  padding:0;
-  width: 480px;
+body{
   text-align: center;
 }
 
-@media( min-width: 960px ) {
-  body, html {
-    height: 700px;
-    margin: auto;
-    width: 960px;
-  }
-}
+
+
+
